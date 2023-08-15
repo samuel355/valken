@@ -101,7 +101,7 @@
     );
     BasicSlider.slick({
       autoplay: true,
-      autoplaySpeed: 10000,
+      autoplaySpeed: 7000,
       dots: false,
       fade: true,
       arrows: true,

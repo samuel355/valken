@@ -1,32 +1,8 @@
-/* CSS Index
------------------------------------
-1. Theme default css
-2. header
-3. slider
-4. about
-5. features
-6. services
-7. video
-8. choose
-9. brand
-10. work-process
-11. team
-12. counter
-13. cta
-14. testimonial
-15. blog
-16. pagination
-17. f-cta
-18. pricing
-19. contact
-20. footer
-
-*/
-@import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 /* 1. Theme default css */
 body {
-  font-family: "Jost", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 16px;
   font-weight: normal;
   color: #777;
@@ -172,7 +148,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Jost", sans-serif;
+  font-family: "Montserrat", sans-serif;
   color: #232323;
   margin-top: 0px;
   font-style: normal;
@@ -278,7 +254,7 @@ label {
   color: #fff;
   display: inline-block;
   font-size: 16px;
-  letter-spacing: 0;
+  letter-spacing: 1.2px;
   line-height: 1;
   margin-bottom: 0;
   padding: 20px 30px;
@@ -503,8 +479,8 @@ label {
   padding: 20px 0;
   letter-spacing: 1.2px;
   position: relative;
-  font-size: 16px;
-  font-family: "Jost", sans-serif;
+  font-size: 18px;
+  font-family: "Montserrat", sans-serif;
 }
 .main-menu ul li a::after {
   content: "+";
@@ -623,7 +599,7 @@ label {
   color: #303539;
   font-size: 25px;
   font-weight: 700;
-  font-family: "Jost", sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 .menu-search {
   padding: 10px 0;
@@ -949,7 +925,7 @@ label {
 }
 
 .header-three .main-menu ul li a {
-  font-family: "Jost", sans-serif;
+  font-family: "Montserrat", sans-serif;
   color: #fff;
   text-transform: capitalize;
 }
@@ -1009,7 +985,7 @@ label {
 .slider-four .slider-bg .text2 h5 {
   color: #ff7425;
   font-size: 18px;
-  font-family: "Jost", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 500;
 }
 
@@ -1714,7 +1690,7 @@ label {
   position: relative;
   display: inline-block;
   font-weight: 700;
-  font-family: "Jost", sans-serif;
+  font-family: "Montserrat", sans-serif;
   margin-top: 15px;
 }
 .about-text span sub {
@@ -1954,7 +1930,7 @@ label {
   color: #303539;
   font-size: 18px;
   font-weight: 600;
-  font-family: "Jost", sans-serif;
+  font-family: "Montserrat", sans-serif;
   margin-top: 0;
   line-height: 30px;
 }
@@ -1984,13 +1960,13 @@ label {
 .sinature-box h2 {
   font-size: 20px;
   font-weight: 500;
-  font-family: "Jost", sans-serif;
+  font-family: "Montserrat", sans-serif;
   color: #232323;
   margin-bottom: 5px;
 }
 .sinature-box h3 {
   font-size: 14px;
-  font-family: "Jost", sans-serif;
+  font-family: "Montserrat", sans-serif;
   color: #4cc3c1;
 }
 .sinature-box .user-box {
@@ -2072,7 +2048,7 @@ label {
   color: #ff7425;
   position: relative;
   font-weight: 800;
-  font-family: "Jost", sans-serif;
+  font-family: "Montserrat", sans-serif;
   margin-top: 15px;
   float: left;
   margin-right: 15px;
@@ -2874,13 +2850,13 @@ section:hover .section-title h2::before {
 .services-07 .user-box .text h2 {
   font-size: 24px;
   font-weight: 500;
-  font-family: "Jost", sans-serif;
+  font-family: "Montserrat", sans-serif;
   color: #fff;
   margin-bottom: 5px;
 }
 .services-07 .user-box .text h3 {
   font-size: 14px;
-  font-family: "Jost", sans-serif;
+  font-family: "Montserrat", sans-serif;
   color: #9a9fa2;
 }
 
@@ -2956,7 +2932,7 @@ section:hover .section-title h2::before {
   -webkit-text-fill-color: #fff;
   font-size: 70px;
   font-weight: bold;
-  font-family: "Jost", sans-serif;
+  font-family: "Montserrat", sans-serif;
   margin-bottom: 35px;
 }
 .services-08-item:before {
@@ -3269,7 +3245,7 @@ section:hover .section-title h2::before {
   position: relative;
   float: left;
   color: #fff;
-  font-family: "Jost", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 24px;
   font-weight: 700;
   line-height: 60px;
@@ -3464,7 +3440,7 @@ section:hover .section-title h2::before {
   margin-right: 25px;
   position: relative;
   border: 2px solid #1f53db;
-  font-family: "Jost", sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 .choose-btn a .icon {
   padding: 0 20px 0 0;
@@ -4114,7 +4090,7 @@ section:hover .section-title h2::before {
   font-weight: 700;
   margin-bottom: 5px;
   line-height: 1;
-  font-family: "Jost", sans-serif;
+  font-family: "Montserrat", sans-serif;
   display: inline-block;
 }
 .counter {
@@ -4201,7 +4177,7 @@ section:hover .section-title h2::before {
   height: 34px;
   text-align: center;
   font-weight: 700;
-  font-family: "Jost", sans-serif;
+  font-family: "Montserrat", sans-serif;
   margin-top: 5px;
 }
 .class-tech {
@@ -9064,7 +9040,7 @@ p.checkout-coupon input[type="text"] {
 .features-area .nav-pills .nav-link {
   width: 100%;
   font-size: 24px;
-  font-family: "Jost", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 600;
 }
 .features-area .nav-pills .nav-link img {
@@ -9223,7 +9199,7 @@ p.checkout-coupon input[type="text"] {
   font-weight: 600;
   margin: 0px 0 15px;
   color: #fff;
-  font-family: "Jost", sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 .skill-bar {
   height: 10px;
@@ -10254,7 +10230,7 @@ cite {
 code {
   font-size: 15px;
   display: inline-block;
-  font-family: "Jost", sans-serif;
+  font-family: "Montserrat", sans-serif;
   margin-top: 10px;
 }
 figcaption {
@@ -10701,7 +10677,7 @@ div.single-cta:last-child {
   font-weight: 700;
   font-size: 24px;
   color: #232323;
-  font-family: "Jost", sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 .aw-line {
   position: relative;
