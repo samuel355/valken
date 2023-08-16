@@ -2913,6 +2913,9 @@ section:hover .section-title h2::before {
   position: relative;
   z-index: 1;
 }
+.services-08-content h3{
+  text-align: center;
+}
 .services-08-thumb img {
   height: 80px;
   margin-bottom: 30px;
@@ -2925,6 +2928,8 @@ section:hover .section-title h2::before {
   text-align: center;
   line-height: 90px;
   background: #eaf5ed;
+  margin-left: auto;
+  margin-right: auto;
 }
 .services-08-thumb.glyph i {
   font-size: 30px;
@@ -11272,4 +11277,8 @@ blockquote cite {
 }
 .footer-top.wpding {
   background: #010c26;
+}
+.slick-prev, .slick-next{
+  display: none !important;
+
 }
