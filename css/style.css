@@ -916,12 +916,13 @@ label {
   z-index: 9;
   margin-bottom: -140px;
   padding-top: 30px;
+  padding-right: 30px;
 }
 
 .header-three .sticky-menu {
   margin-top: 0;
   background: #242628;
-  padding: 0;
+  padding: 15px 30px 20px 0;
 }
 .header-three .sticky-menu .container {
   background: none;
