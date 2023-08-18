@@ -922,8 +922,9 @@ label {
 
 .header-three .sticky-menu {
   margin-top: 0;
-  background: #242628;
+  background: #000e1c;
   padding: 15px 30px 20px 0;
+  opacity: 0.95;
 }
 .header-three .sticky-menu .container {
   background: none;
