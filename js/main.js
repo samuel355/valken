@@ -574,7 +574,7 @@
     animation: "fade",
     animationInSpeed: 200,
     animationOutSpeed: 200,
-    scrollText: '<i class="fas fa-level-up-alt"></i>',
+    scrollText: '<i class="fas fa-arrow-alt-up"></i>',
     activeOverlay: false,
   });
 
@@ -646,5 +646,5 @@
     });
   }
 
-   $(".year").text(new Date().getFullYear());
+  $(".year").text(new Date().getFullYear());
 })(jQuery);
