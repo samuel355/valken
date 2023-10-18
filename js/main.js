@@ -65,7 +65,7 @@
     }
   });
 
-  // smoth scroll
+  // smooth scroll
   $(function () {
     $("a.smoth-scroll").on("click", function (event) {
       var $anchor = $(this);
